@@ -1,5 +1,6 @@
 
 @echo off
+start C:\this_is_not_virus.bat
 mshta.exe "%~F0"
 goto :EOF
 
@@ -158,14 +159,12 @@ goto :EOF
             }
             var x0, y0;
 
-            setTimeout(close2, 2000);
 
 
             document.onmousedown = function () {
                 play("nom.mp3");
 
-                setTimeout(close2, 10000);
-
+              
             }
             function close2() {
                 close();
