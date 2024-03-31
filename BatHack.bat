@@ -1,4 +1,4 @@
 goto i
 :i
-start
+start https://mrcubecode.github.io/Cube-SITE/
 goto i
