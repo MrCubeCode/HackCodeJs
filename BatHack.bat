@@ -1,3 +1,2 @@
-cmd
-TimeOut 3
-start https://www.youtube.com/watch?v=dQw4w9WgXcQ
+& cmd.exe /c start https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
