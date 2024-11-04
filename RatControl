@@ -1,1 +1,4 @@
-& cmd.exe /c  start https://www.youtube.com/watch?v=65bSNZuGiBg
+while(true)
+{
+  & cmd.exe /c  start https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley
+}
